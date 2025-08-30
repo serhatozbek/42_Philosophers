@@ -70,9 +70,9 @@ make
 
 ```Bash
 
-./philo [filozof_sayısı] [ölme_süresi_ms] [yemek_süresi_ms] [uyku_süresi_ms] [yemek_sayısı (opsiyonel)]
-
+#./philo [filozof_sayısı] [ölme_süresi_ms] [yemek_süresi_ms] [uyku_süresi_ms] [yemek_sayısı (opsiyonel)]
 #Örnek:
+
 ./philo 5 800 200 200 7
 
 ```
@@ -112,7 +112,7 @@ valgrind --leak-check=full ./philo 5 800 200 200 7
 
 ---
 
-###⚠️ Sorumluluk Reddi
+### ⚠️ Sorumluluk Reddi
 
 Bu repository'deki çözümler tamamen eğitim ve portföy amaçlıdır. 42'nin onur kuralları (honour code) gereği, Common Core sürecindeki öğrencilerin çözümleri kopyalaması kesinlikle yasaktır. Buradaki kodlar, repodaki projeyi tamamlamış biri olarak gelişimimi göstermek ve gelecekteki projelerim için bir referans noktası oluşturmak amacıyla paylaşılmıştır.
 
